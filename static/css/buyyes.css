@@ -1,0 +1,105 @@
+header{
+  height: .64rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: white;
+}
+header a{
+  width: 85%;
+  font-size: .2rem;
+  color: #000000;
+  margin: .08rem auto;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+section{
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+section .uls{
+  display: flex;
+  flex-direction: column;
+  /*justify-content: space-around;*/
+  background: white;
+}
+section .uls li{
+  text-indent: .3rem;
+  height: .64rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section .uls li:first-child{
+  background: #F5F5F5;
+}
+section .uls li img{
+  width: .35rem;
+  height: .35rem;
+  display: inline-block;
+  vertical-align: text-top;
+  margin-right: .2rem;
+}
+section .uls li a{
+  font-size: .19rem;
+  color: #070707;
+}
+section .uls li a input{
+  width: .22rem;
+  height: .22rem;
+  border-radius: 50%;
+  border: 3px solid #8b90a4;
+  margin-right: .3rem;
+}
+section .uls li a span{
+  font-size: .19rem;
+  color: #070707;
+}
+section .uls li{
+  border-top: 1px solid #f5f5f5;
+}
+
+h1 p{
+  width: 100%;
+  height: .57rem;
+  background: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+h1 p input{
+  margin-left: .3rem;
+  width:.3rem ;
+  height:.3rem ;
+  border:2px solid #4267bb;
+}
+h1 p label{
+  text-align: left;
+  font-size: .15rem;
+  color: #4d4d4d;
+  margin-left: .2rem;
+  margin-right: .35rem;
+}
+h1 p label span{
+  font-size: .15rem;
+  color: #4075f2;
+}
+footer{
+  width: 100%;
+  height: .57rem;
+  display: flex;
+}
+footer a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: .57rem;
+  background: #ff7a3f;
+  text-align: center;
+}
+footer a span{
+  font-size: .21rem;
+  color: white;
+}

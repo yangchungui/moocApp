@@ -1,0 +1,28 @@
+{
+  "user":{},
+  "shops":[
+    {
+           "title":"全部专栏",
+            "products":[
+              {"attrs":{
+                  "pic":"../../../../static/img/personal1.jpg",
+                  "title":"有用又有趣的思维",
+                  "message":"帮你构建底层思维模型帮你构建底层思维模型",
+                  "authors":"文建东",
+                  "number":99,
+                  "prices":98
+                },
+                "list":[
+                {
+                  "title":"为什么钻石远没有水有用，为什么钻石远没有水有用",
+                  "log":"../../../../static/img/movie.jpg"
+                },
+                {
+                  "title":"为什么钻石远没有水有用，为什么钻石远没有水有用",
+                  "log":"../../../../static/img/movie.jpg"}
+
+                  ]
+            }]
+        }
+  ]
+}

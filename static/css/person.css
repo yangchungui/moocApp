@@ -1,0 +1,105 @@
+section{
+  width: 100%;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  text-indent: .18rem;
+  overflow-y: auto;
+  background: #FFFFFF;
+}
+section h3{
+  font-size: .26rem;
+  color: #333333;
+  margin-top: .31rem;
+  margin-bottom: 11px;
+  justify-content: start;
+}
+section .list{
+  width: 100%;
+  padding-top: .15rem;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid #f3f3f3;
+}
+
+section .list li{
+  display: flex;
+  align-items: center;
+  margin-bottom: 11px;
+}
+
+section .list li .lis{
+  padding-left: .2rem;
+  display: flex;
+  justify-content:flex-start;
+}
+section .list li .lis li{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+section .list li .lis li img{
+  display:inline-block;
+  width: 1.52rem;
+  height: 1.05rem;
+}
+section .list li .lis li h2{
+  width: 1.6rem;
+  font-size: .19rem;
+  color: #282828;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+section .list li .lis li h4{
+  padding-top: .08rem;
+  width: 1.7rem;
+  font-size: .14rem;
+  color: #878787;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+section .list li .lis li h4:last-child{
+  display: flex;
+  justify-content: space-between;
+  padding-right: .1rem;
+}
+section .list li .lis li h4:last-child a span img{
+  display: inline-block;
+  width: .12rem;
+  height: .12rem;
+}
+section .list li .lis li h4:last-child a:last-child span{
+  font-size: .12rem;
+  color: #fb7135;
+}
+section .list li .lis li h4:last-child a span{
+  font-size: .12rem;
+  color: #898989;
+}
+section .list li a{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+section .list li a span{
+  line-height: .18rem;
+  text-align: center;
+  font-size: .12rem;
+  color: #628ef4;
+}
+section .list li a p{
+  font-size: .19rem;
+  color: #515151;
+  width: 2.53rem;
+  margin-right: .3rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+section .list li a img{
+  width: .2rem;
+  height: .2rem;
+  display: inline-block;
+}

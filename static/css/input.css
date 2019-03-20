@@ -1,0 +1,115 @@
+body{
+  justify-content: flex-start;
+}
+
+header{
+  height: .64rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: white;
+}
+header a{
+  width: 85%;
+  font-size: .2rem;
+  color: #000000;
+  margin: .08rem auto;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+section{
+  padding-bottom: .3rem;
+  background: white;
+}
+section p{
+  line-height: .5rem;
+  height: .5rem;
+  font-size: .18rem;
+  color: #2c2c2c;
+  border-bottom: 2px solid #dfdfdf;
+  text-indent: .3rem;
+}
+section p select{
+  border: none;
+  height: .4rem;
+}
+section p select option{
+  border: none;
+  background: white;
+  height: .4rem;
+  outline: 0;
+}
+section p input{
+  text-indent: .1rem;
+  outline: 0;
+  font-size: .18rem;
+  color:#c7c7c7;
+}
+section p:first-child input{
+  border: 0;
+  height: .4rem;
+  width: 2.5rem;
+}
+section p:nth-child(2) input:last-child{
+  border: 0;
+  height: .4rem;
+  background: white;
+}
+section p:nth-child(2) input:first-child{
+  border: 0;
+  width: 1.4rem;
+  height: .4rem;
+}
+section p option{
+  font-size: .18rem;
+  color: #2c2c2c;
+}
+section p:last-child input{
+  border: 0;
+  height: .4rem;
+  width: 2.5rem;
+}
+h4{
+  background: white;
+  padding-top: .15rem;
+}
+h4 p{
+  width: 95%;
+  height: .57rem;
+  background: white;
+  text-align: center;
+  text-indent: .3rem;
+  padding-right: .2rem
+}
+h4 p input{
+  margin-left: .3rem;
+  width:.3rem ;
+  height:.3rem ;
+  border:2px solid #4267bb;
+}
+h4 p{
+  font-size: .15rem;
+  color: #4d4d4d;
+}
+h4 p span{
+  font-size: .15rem;
+  color: #4075f2;
+}
+footer{
+  width: 100%;
+  height: .57rem;
+  display: flex;
+}
+footer a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: .57rem;
+  background: #ff7a3f;
+  text-align: center;
+}
+footer a span{
+  font-size: .21rem;
+  color: white;
+}
